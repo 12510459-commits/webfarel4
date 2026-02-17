@@ -1,0 +1,42 @@
+/* Reset dasar agar tidak ada jarak liar */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Bagian Atas Biru */
+header {
+    background-color: #e2ec31;
+    color: rgb(18, 17, 17);
+    padding: 50px;
+}
+
+/* Pembungkus tengah agar sidebar & artikel bisa bersampingan */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+
+/* Kotak Sidebar (Kiri) */
+aside {
+    flex: 5;           /* Lebar 1 bagian */
+    background: #7e7575;  /* Abu-abu */
+    padding: 100px;
+    margin-right: 100px;
+}
+
+/* Kotak Artikel (Kanan) */
+article {
+    flex: 15;           /* Lebar 3 bagian (lebih luas) */
+    background: #eee;  /* Abu-abu terang */
+    padding: 100px;
+}
+
+/* Bagian Bawah Hitam */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
